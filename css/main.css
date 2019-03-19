@@ -9,18 +9,28 @@ body {
   text-align: center;
 }
 
-#info {
+.logo {
   color:#fff;
   position: absolute;
   top: 0px;
   width: 100%;
   padding: 5px;
-  margin-top: 3%;
+  margin-top: 4%;
   font-family: Raleway, sans-serif;
   font-size: 18px;
 }
 
-#contact {
+.maintenance {
+  color:#fff;
+  margin-top: 225px;
+  position: absolute;
+  width: 100%;
+  padding: 5px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+}
+
+.contact {
   bottom: 0;
   color:#fff;
   margin-bottom: 5%;
@@ -44,4 +54,11 @@ button, input, textarea {
   cursor: pointer;
   outline-color: #fff;
   border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    width: 90%;
+  }
 }
